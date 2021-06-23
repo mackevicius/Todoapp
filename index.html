@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Todo app</title>
+ 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body class="body body-dark-mode">
+<section class="background background-dark-mode">
+  <div class="background-image"></div>
+  <!-- <img src="images/bg-desktop-dark.jpg" alt=""> -->
+  <div class="container">
+    <h1><a href="">TODO</a></h1>
+    <img src="images/icon-sun.svg" alt="">
+    <div class="create create-dark-mode">
+      <div class="circle circle-dark-mode"><div class="circle2 circle2-dark-mode "></div><img class="displaynone" src="images/icon-check.svg" alt=""></div><input type="text" class="input input-dark-mode" placeholder="Create a new todo..">
+    </div>
+    <div class="list-container">
+      <div class="item item-dark-mode" draggable="true">
+        <div class="circle circle-dark-mode"><div class="circle2 circle2-dark-mode"></div><img class="displaynone"src="images/icon-check.svg" alt=""></div>
+        <p>Jog around the park 3x</p>
+        <img class="cross" src="images/icon-cross.svg" alt="">
+       </div>
+       <div class="item item-dark-mode" draggable="true">
+        <div class="circle circle-dark-mode"><div class="circle2 circle2-dark-mode"></div><img class="displaynone"src="images/icon-check.svg" alt=""></div>
+        <p>10 minutes meditation</p>
+        <img class="cross" src="images/icon-cross.svg" alt="">
+       </div>
+       <div class="item item-dark-mode" draggable="true">
+        <div class="circle circle-dark-mode"><div class="circle2 circle2-dark-mode"></div><img class="displaynone"src="images/icon-check.svg" alt=""></div>
+        <p>Read for 1 hour</p>
+        <img class="cross" src="images/icon-cross.svg" alt="">
+       </div>
+       <div class="item item-dark-mode" draggable="true">
+        <div class="circle circle-dark-mode"><div class="circle2 circle2-dark-mode"></div><img class="displaynone"src="images/icon-check.svg" alt=""></div>
+        <p>Pick up groceries</p>
+        <img class="cross" src="images/icon-cross.svg" alt="">
+       </div>
+       <div class="item item-dark-mode" draggable="true">
+        <div class="circle circle-dark-mode"><div class="circle2 circle2-dark-mode"></div><img class="displaynone"src="images/icon-check.svg" alt=""></div>
+        <p>Complete Todo App on Frontend Mentor</p>
+        <img class="cross" src="images/icon-cross.svg" alt="">
+       </div>
+     <div class="summary summary-dark-mode">
+       <p>0 items left</p>
+       <ul class="buttons buttons-dark-mode">
+          <li class="marked">All</li>
+          <li>Active</li>
+          <li>Completed</li>
+       </ul>
+       <a class="a" href="">Clear completed</a>
+     </div>
+    </div>
+    <p class="drag">Drag and drop to reorder the list</p>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/mackevicius">Povilas M.</a>.
+    </div>
+  </div>
+</section>
+<script src="main.js"> </script>
+
+</script>
+</body>
+</html>
